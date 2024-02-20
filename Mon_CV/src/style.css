@@ -1,0 +1,112 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-custom {
+    background-image: linear-gradient(to top, #ec5b60, #89a1ff);
+}
+.bg-nc {
+    background-image: url("../features/NvelleCaledonie.jpg");
+    background-size: cover;
+}
+
+.categories {
+    position: absolute;
+    padding: 0px;
+    top: 220px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url("../features/Menu_2.jpg");
+    background-size: contain;
+}
+
+.ms-n1 {
+    margin-left: 9rem !important;
+}
+
+.progress {
+    margin-bottom: 10px;
+}
+
+.talent {
+    margin-bottom: 0px;
+    left: 200px;
+}
+
+.bg-html {
+    background-color: #07e4ff;
+}
+
+.bg-python {
+    background-color: #ffe744;
+}
+
+.bg-js {
+    background-color: orangered;
+}
+
+.bg-js {
+    background-color: orangered;
+}
+
+.bg-bootstrap {
+    background-color: #6852b9;
+}
+
+.container-custom {
+    height: 100%;
+}
+
+.hovtxt {
+    background: black;
+    opacity:0;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.hovtxt:hover {
+    opacity:70%;
+}
+
+.porsche {
+    background-image: url(../features/Porsche.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.epitech {
+    background-image: url(../features/EpitechNice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.valrose {
+    background-image: url(../features/Valrose.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lycee {
+    background-image: url(../features/Lycée.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-custom {
+    background-image: linear-gradient(to right, #1a735b, black);
+}
+
+.text-custom {
+    color: #002a3d;
+}
+
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.15);
+}
